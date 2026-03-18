@@ -48,8 +48,10 @@ def loadData(path):
     if df.empty:
         raise ValueError("Dataset is empty")
 
+    df.columns = df.columns.str.strip()
+
     if "close" not in df.columns:
-        raise ValueError("Missing 'close' column")
+        raise ValueError(f"Missing required column: close. Found columns: {list(df.columns)}")
 
     return df
 
@@ -72,7 +74,7 @@ def computeMetrics(df, start_time, config):
         "version": config["version"],
         "rows_processed": len(df),
         "metric": "signal_rate",
-        "value": float(df["signal"].mean()),
+        "value": round(float(df["signal"].mean()),4),
         "latency_ms": latency_ms,
         "seed": config["seed"],
         "status": "success"
