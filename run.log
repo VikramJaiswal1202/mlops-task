@@ -1,0 +1,23 @@
+2026-03-18 20:59:41,582 INFO Job started
+2026-03-18 20:59:41,583 INFO Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-03-18 20:59:41,584 ERROR No columns to parse from file
+2026-03-18 21:03:18,367 INFO Job started
+2026-03-18 21:03:18,368 INFO Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-03-18 21:03:18,388 ERROR Missing 'close' column
+2026-03-18 21:08:40,466 INFO Job started
+2026-03-18 21:08:40,468 INFO Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-03-18 21:08:40,489 ERROR Missing 'close' column
+2026-03-18 21:11:16,902 INFO Job started
+2026-03-18 21:11:16,903 INFO Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-03-18 21:11:16,928 INFO Loaded 10000 rows
+2026-03-18 21:11:16,930 INFO Rolling mean computed
+2026-03-18 21:11:16,931 INFO Signals generated
+2026-03-18 21:11:16,932 INFO Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 29, 'seed': 42, 'status': 'success'}
+2026-03-18 21:11:16,932 INFO Job completed successfully
+2026-03-18 21:13:11,260 INFO Job started
+2026-03-18 21:13:11,261 INFO Config loaded: {'seed': 42, 'window': 5, 'version': 'v1'}
+2026-03-18 21:13:11,288 INFO Loaded 10000 rows
+2026-03-18 21:13:11,291 INFO Rolling mean computed
+2026-03-18 21:13:11,292 INFO Signals generated
+2026-03-18 21:13:11,293 INFO Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4989, 'latency_ms': 32, 'seed': 42, 'status': 'success'}
+2026-03-18 21:13:11,293 INFO Job completed successfully
